@@ -90,6 +90,10 @@
       <Project>{6FEE3F06-139F-40B5-BF54-0530F93CACFA}</Project>
       <Name>NsbLoggerInjection.Components</Name>
     </ProjectReference>
+    <ProjectReference Include="..\NsbLoggerInjection.Log4Net_1_2_10\NsbLoggerInjection.Log4Net_1_2_10.csproj">
+      <Project>{72997417-0ffd-41a1-810c-b1caa574dbb5}</Project>
+      <Name>NsbLoggerInjection.Log4Net_1_2_10</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NsbLoggerInjection.Messages\NsbLoggerInjection.Messages.csproj">
       <Project>{70624f71-6ff4-4a4e-a4eb-d871c7e68832}</Project>
       <Name>NsbLoggerInjection.Messages</Name>
