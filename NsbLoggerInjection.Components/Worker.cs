@@ -17,7 +17,7 @@ namespace NsbLoggerInjection.Components
     {
       Logger.InfoFormat("Just entered {0}...", MethodBase.GetCurrentMethod().Name);
       Thread.Sleep(100);
-      Logger.InfoFormat("About to live {0}...", MethodBase.GetCurrentMethod().Name);
+      Logger.InfoFormat("About to leave {0}...", MethodBase.GetCurrentMethod().Name);
     }
   }
 }
